@@ -9,21 +9,31 @@ a {
 }
 
 body {
-  background: rgb(0,0,0);
-  background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(215,62,136,1) 35%, rgba(255,255,255,1) 100%);
-  font-family: "Roboto", sans-serif;
+  background: linear-gradient(
+    180deg,
+    rgba(24, 24, 36, 1) 0%,
+    rgba(117, 98, 224, 1) 60%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
   min-height: 100vh;
+  display: flex;
 }
 
 .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
   text-align: center;
   width: 300px;
   margin: 60px auto;
 }
 
 img {
+  align-self: center;
   width: 100%;
-  border-radius: 30%;
+  border-radius: 50%;
   width: 135px;
   height: 135px;
   border: white solid 3px;
@@ -39,8 +49,8 @@ h1 {
 }
 
 p {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
   color: white;
   opacity: 0.8;
   font-size: 14px;
@@ -58,7 +68,7 @@ ul li a {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #A61E4D;
+  background-color: #1a1a29;
   color: white;
   text-transform: uppercase;
   font-size: 14px;
