@@ -9,12 +9,7 @@ a {
 }
 
 body {
-  background: linear-gradient(
-    180deg,
-    rgba(24, 24, 36, 1) 0%,
-    rgba(117, 98, 224, 1) 60%,
-    rgba(255, 255, 255, 1) 100%
-  );
+  background: #1a1a29;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   min-height: 100vh;
@@ -30,17 +25,13 @@ body {
   margin: 60px auto;
 }
 
-img {
+.container a img {
   align-self: center;
-  width: 100%;
-  border-radius: 50%;
-  width: 135px;
-  height: 135px;
-  border: white solid 3px;
+  width: 160px;
   padding: 3.7px;
 }
 
-h1 {
+.container h1 {
   margin-top: 24px;
   margin-bottom: 8px;
   font-size: 32px;
@@ -48,7 +39,7 @@ h1 {
   color: white;
 }
 
-p {
+.container p {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   color: white;
@@ -68,23 +59,22 @@ ul li a {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #1a1a29;
+  background: linear-gradient(270deg, #da1381 0%, #7562e0 100%);
   color: white;
   text-transform: uppercase;
   font-size: 14px;
   margin-bottom: 16px;
   border-radius: 6px;
-  transition: background 400ms;
+  transition: all 400ms ease-in-out;
 }
 
 ul li a:hover {
-  transition: all 400ms ease-in-out;
   transform: scale(1.1);
 }
 
-footer {
+#p-footer {
   font-weight: 500;
   font-size: 12px;
-  color: #FFFFFF7A;
+  color: white;
   opacity: 0.8;
 }
